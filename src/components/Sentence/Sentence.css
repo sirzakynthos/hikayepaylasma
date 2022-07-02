@@ -1,0 +1,45 @@
+.sentence {
+  padding-bottom: 2.2rem;
+  padding-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font: 600;
+}
+.sentence:hover {
+  cursor: default;
+}
+
+.author-info {
+  color: blue;
+}
+.author-info:hover {
+  pointer-events: none;
+}
+
+.edit-btn {
+  background-color: lime;
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.delete-btn {
+  background-color: lightcoral;
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.like-count {
+  font-style: normal;
+  display: inline-block;
+  transform: translateY(-23px);
+  font-size: 1.25rem;
+  color: black;
+  padding-right: 1rem;
+}

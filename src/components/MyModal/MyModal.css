@@ -1,0 +1,84 @@
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.add-button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: greenyellow;
+  font-size: 1.1rem;
+}
+.cancel-button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: yellow;
+  font-size: 1.1rem;
+}
+
+.edit-button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: teal;
+  font-size: 1.1rem;
+}
+.delete-button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: red;
+  font-size: 1.1rem;
+}
+
+.create-story-button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background-color: lightblue;
+  font-size: 1.1rem;
+}
+
+.add-button:hover,
+.cancel-button:hover,
+.edit-button:hover,
+.delete-button:hover,
+.create-story-button:hover {
+  border-color: black;
+}
+textarea {
+  margin-bottom: 0.5rem;
+}
+
+.first-sentence {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}

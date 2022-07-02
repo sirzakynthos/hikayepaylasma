@@ -1,0 +1,40 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 13%;
+}
+
+.stories-title {
+  padding-top: 1rem;
+}
+
+.sidebar .sidebar-title {
+  padding: 8px;
+  font-size: 20px;
+  display: block;
+}
+
+.sidebar div:first-child {
+  font-size: 30px;
+  color: darkblue;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+  display: block;
+}
+
+.sidebar-title:hover,
+.add-new-story:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.add-new-story {
+  padding-bottom: 1rem;
+  color: green;
+  font-size: 1.5rem;
+}
+
+.selected {
+  background-color: yellow;
+}

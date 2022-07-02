@@ -1,0 +1,14 @@
+.new-sentence-btn {
+  font-size: 1.2rem;
+  border: thick double black;
+  border-radius: 50%;
+  max-width: fit-content;
+  padding: 0.5rem;
+  /* margin-bottom: 1rem; */
+  color: green;
+}
+
+.new-sentence-btn:hover {
+  background-color: yellow;
+  cursor: pointer;
+}

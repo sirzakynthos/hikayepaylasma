@@ -1,0 +1,19 @@
+.story-container {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  text-align: left;
+}
+
+.confirm-message {
+  color: brown;
+}
+
+.story-container h2 {
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.new-sentence-input {
+  display: block;
+}
